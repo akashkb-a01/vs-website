@@ -78,6 +78,7 @@ export default function Footer() {
 						<SocialIcon url = "https://www.instagram.com/vsiitk" />
 						<SocialIcon url = "https://www.twitter.com/vsiitk" />
 						<SocialIcon url = "https://in.linkedin.com/in/vivekananda-samiti-iit-kanpur-342902105" />
+						<SocialIcon url = "https://discord.gg/ap5E8bP5" />
 						<SocialIcon url = "http://vsiitk.blogspot.com/" network="rss"/>
 					</ShareBar>
 					<Copyright>&copy; Copyright 2022 Vivekananda Samiti, IIT Kanpur</Copyright>
