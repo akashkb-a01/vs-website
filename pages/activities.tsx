@@ -87,12 +87,11 @@ export default function ActivitiesPage() {
 					Vivekananda Samiti conducts weekly guided Meditation Session under the guidance of Rev. Swami Atmashraddhananda Ji Maharaj, the current Secretary of Ramkrishna Mission Ashram, Kanpur every Saturday morning. <br /> <br />
 					The session proceeds in the following order
 						<ul>
-  						<li>Vedic Chanting</li>
-  						<li>Reading of Swamiji’s literature and reflecting upon it.</li>
-  						<li>Guided Meditation</li>
+							<li>Vedic Chanting</li>
+							<li>Reading of Swamiji’s literature and reflecting upon it.</li>
+							<li>Guided Meditation</li>
 							<li>QnA Session</li>
 						</ul>
-
 					</SectionText>
 					<ImageContainer>
 						<NextImage src="/ActivitiesImg/meditation.png" alt="IITK" layout="fill" objectFit="contain"	/>
