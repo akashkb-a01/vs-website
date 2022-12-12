@@ -1,8 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import NextLink from "next/link"
-// import Icon, {Telegram} from 'react-share-icons';
-// import ytIcon from "../public/assets/yticon.svg"
-import { EmailIcon, FacebookIcon, LinkedinIcon, TwitterIcon } from "react-share"
+import { SocialIcon } from "react-social-icons"
 import styled from "styled-components"
 
 import Container from "components/Container"
@@ -74,24 +72,13 @@ export default function Footer() {
 				</ListContainer>
 				<BottomBar>
 					<ShareBar>
-
-						<NextLink href="mailto:vsamiti@iitk.ac.in" passHref>
-							<a>
-								<EmailIcon size={50} round={true} />
-							</a>
-						</NextLink>
-
-						<NextLink href="https://www.facebook.com/vsiitk" passHref>
-							<a>
-								<FacebookIcon size={50} round={true} />
-							</a>
-						</NextLink>
-
-						<NextLink href="https://www.twitter.com/vsiitk" passHref>
-							<a>
-								<TwitterIcon size={50} round={true} />
-							</a>
-						</NextLink>
+						<SocialIcon url = "mailto:vsamiti@iitk.ac.in" />
+						<SocialIcon url = "https://youtube.come/@vsiitk" />
+						<SocialIcon url = "https://www.facebook.com/vsiitk" />
+						<SocialIcon url = "https://www.instagram.com/vsiitk" />
+						<SocialIcon url = "https://www.twitter.com/vsiitk" />
+						<SocialIcon url = "https://in.linkedin.com/in/vivekananda-samiti-iit-kanpur-342902105" />
+						<SocialIcon url = "http://vsiitk.blogspot.com/" network="rss"/>
 					</ShareBar>
 					<Copyright>&copy; Copyright 2022 Vivekananda Samiti, IIT Kanpur</Copyright>
 				</BottomBar>
