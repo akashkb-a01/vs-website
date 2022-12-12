@@ -68,8 +68,8 @@ export default function ActivitiesPage() {
 				<TextWrapper>
 					<SectionText>
 					Vivekananda Samiti conducts various donation drives such as distributing blankets during the winters. <br /> <br />
-					Funds are raised by the generous donations from the people of IITK and beyond. Also the success of the drives lies heavily on the volunteers, who put in their best efforts and precious time for the noble cause.
-
+					Funds are raised by the generous donations from the people of IITK and beyond. Also the success of the drives lies heavily on the volunteers, who put in their best efforts and precious time for the noble cause. <br /> <br />
+					Also Vivekananda Samiti conducts the Clothes donation drive. Wherein, the campus residents donate their clothes by placing them into one of many donation boxes kept at various places in the campus by the eam members. Later, the clothes are collected and cleaned before donating them.
 					</SectionText>
 					<ImageContainer>
 						<NextImage src="/ActivitiesImg/blanket.png" alt="Blanket Donation" layout="fill" objectFit="contain"	/>
