@@ -76,7 +76,6 @@ export default function SingleArticlePage(props: InferGetStaticPropsType<typeof 
 			<CustomContainer id="content" ref={contentRef}>
 				<ShareWidget title={title} slug={slug} />
 				<Header title={title} formattedDate={formattedDate} imageUrl={absoluteImageUrl} readTime={readTime} />
-				<MDXRichText content={content} />
 			</CustomContainer>
 		</>
 	)

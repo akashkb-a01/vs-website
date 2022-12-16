@@ -11,25 +11,25 @@ import { media } from "utils/media"
 const Managers = [
 	{
 		name: "Adarsh Kumar",
-		// image: "/testimonials/Abhinav.jpg",
+		// image: "/",
 		phone: "(+91) 62066 03698",
 		mail: "adarshk20@iitk.ac.in",
-		// linkedin: "https://www.linkedin.com/in/abhinav-d-singh-iitk/"
+		// linkedin: "https://www.linkedin.com/in/"
 
 	},
 	{
 		name: "Akash Biswas",
-		// image: "/testimonials/Sunay.jpg",
+		// image: "/",
 		phone: "(+91) 94226 19437",
 		mail: "abiswas20@iitk.ac.in",
-		// linkedin: "https://www.linkedin.com/in/sunay-chhajed/"
+		// linkedin: "https://www.linkedin.com/in/"
 	},
 	{
 		name: "Lavesh Mangal",
-		// image: "/testimonials/Gyanendra.jpg",
+		// image: "/",
 		phone: "(+91) 80786 72915",
 		mail: "laveshm20@iitk.ac.in",
-		// linkedin: "https://www.linkedin.com/in/gyanendra-kumar-iitk/"
+		// linkedin: "https://www.linkedin.com/in/"
 	}
 ]
 const Secys = [

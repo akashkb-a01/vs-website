@@ -11,10 +11,10 @@ import { media } from "utils/media"
 const Managers = [
 	{
 		"name": "Nitish Kumar",
-		// "image": "/testimonials/PastYearTeamImages/21-22/ayush.jpg",
-		"mail": "nitishkr@iitk.ac.in",
+		// "image": "",
+		"mail": "nitishk@iitk.ac.in",
 		"phone": "+91 98356 37958",
-		// "linkedin": "https://www.linkedin.com/in/ayush-agrawal-iitk/"
+		// "linkedin": "https://www.linkedin.com/in/"
 	}
 ]
 
@@ -23,12 +23,42 @@ const Secys = [
 		"name": "Akash Biswas",
 		"mail": "abiswas20@iitk.ac.in",
 		"phone": "+91 94226 19437"
-	}
+	},
+	{
+		"name": "Akhil Jain",
+		"mail": "akhilj20@iitk.ac.in",
+		"phone": "+91 91166 62470"
+	},
+	{
+		"name": "Harish Kumar",
+		"mail": "harishk20@iitk.ac.in",
+		"phone": "+91 73576 65574"
+	},
+	{
+		"name": "Lavesh Mangal",
+		"mail": "laveshm20@iitk.ac.in",
+		"phone": "+91 80786 72915"
+	},
+	{
+		"name": "Neelima Singh",
+		"mail": "neelima20@iitk.ac.in",
+		"phone": "+91 94552 65763"
+	},
+	{
+		"name": "Santu Panja",
+		"mail": "santupanja20@iitk.ac.in",
+		"phone": "+91 97485 61613"
+	},
+	{
+		"name": "Sheeshram Choudhary",
+		"mail": "sheeshram20@iitk.ac.in",
+		"phone": "+91 98757 89537"
+	},
 ]
 
 export default function StudentTeam22() {
 	return (
-		<Page title="Placement Team 2020-21" >
+		<Page title="Vivekananda Samiti Team 2020-21" >
 			<DarkerBackgroundContainer>
 				<br />
 				<br />
