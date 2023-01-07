@@ -46,8 +46,8 @@ const PREVTEAM = [
 	"2019-20",
 	"2018-19",
 	"2017-18",
-	"2016-17",
-	"2015-16",
+	// "2016-17",
+	// "2015-16",
 ]
 
 export interface StudentTeamProps {
@@ -78,7 +78,7 @@ export default function StudentTeam({ notNeedTitleAtStudentTeam }: StudentTeamPr
 					</CustomAutofitGrid4>
 					<br />
 				</Container>
-				<SectionTitle>Secretaries</SectionTitle>
+				{/* <SectionTitle>Secretaries</SectionTitle>
 				<Container>
 					<CustomAutofitGrid3>
 						{Secys.map((member) => (
@@ -91,7 +91,7 @@ export default function StudentTeam({ notNeedTitleAtStudentTeam }: StudentTeamPr
 							</div>
 						))}
 					</CustomAutofitGrid3>
-				</Container>
+				</Container> */}
 				<SectionTitle>Previous Teams</SectionTitle>
 				<Container>
 					<CustomAutofitGrid>

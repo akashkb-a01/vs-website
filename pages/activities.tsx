@@ -141,9 +141,9 @@ export default function ActivitiesPage() {
 						</ol>
 
 					</SectionText>
-					<ImageContainer>
+					{/* <ImageContainer>
 						<NextImage src="/AboutPageImg/AboutIITK.jpg" alt="IITK" layout="fill" objectFit="contain"	/>
-					</ImageContainer>
+					</ImageContainer> */}
 				</TextWrapper>
 				<br />
 				<br />

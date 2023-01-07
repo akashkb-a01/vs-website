@@ -10,12 +10,19 @@ import { media } from "utils/media"
 
 const Managers = [
 	{
-		"name": "Manager",
-		// "image": "/testimonials/PastYearTeamImages/21-22/ayush.jpg",
-		"mail": "manager@iitk.ac.in",
+		"name": "Dishant Parewa",
+		// "image": "/",
+		"mail": "dishant@iitk.ac.in",
 		"phone": "+91 00000 00000",
-		// "linkedin": "https://www.linkedin.com/in/ayush-agrawal-iitk/"
-	}
+		// "linkedin": "https://www.linkedin.com/in/"
+	},
+	{
+		"name": "Kanishka",
+		// "image": "/",
+		"mail": "kanishka@iitk.ac.in",
+		"phone": "+91 00000 00000",
+		// "linkedin": "https://www.linkedin.com/in/"
+	},
 ]
 
 const Secys = [
@@ -33,7 +40,7 @@ export default function StudentTeam22() {
 				<br />
 				<br />
 				<Container>
-					<SectionTitle>Manager</SectionTitle>
+					<SectionTitle>Managers</SectionTitle>
 					<CustomAutofitGrid4>
 						{Managers.map((member, i) => {
 							return (
@@ -42,7 +49,7 @@ export default function StudentTeam22() {
 										{/* {member.image && <NextImage src={member.image} width={128} height={128} alt={member.name} />} */}
 										<Title>{member.name}</Title>
 										<Description><Link href={"mailto:" + member.mail}>{member.mail}</Link></Description>
-										<Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description>
+										{/* <Description><Link href={"tel:" + member.phone}>{member.phone}</Link></Description> */}
 										{/* <small><a href={member.linkedin} target="_blank" rel="noreferrer"><LinkedinIcon style={{ cursor: "pointer", opacity: 0.8 }} /></a></small> */}
 									</Card>
 								</div>
@@ -51,7 +58,7 @@ export default function StudentTeam22() {
 						)}
 					</CustomAutofitGrid4>
 				</Container>
-				<SectionTitle>Secretaries</SectionTitle>
+				{/* <SectionTitle>Secretaries</SectionTitle>
 				<Container>
 					<CustomAutofitGrid4>
 						{Secys.map((member) => (
@@ -65,7 +72,7 @@ export default function StudentTeam22() {
 						))}
 					</CustomAutofitGrid4>
 				</Container>
-				<br />
+				<br /> */}
 			</DarkerBackgroundContainer>
 		</Page>
 	)
